@@ -17,7 +17,6 @@ class DownloadViewController: UIViewController {
     let itemsPerRow: CGFloat = 3
     let sectionsInserts = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         _ = Task {
